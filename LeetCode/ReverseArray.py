@@ -2,15 +2,18 @@
 #Say we have an input array of s[], how do you reverse the array or string?
 
 class Solution(object):
-    def reverseString(self, s): #Do not use slicing
+    def reverseString(self, s) -> None:
         index = len(s)
+<<<<<<< HEAD
         stringAns = ""
+=======
+        reverseString = []
+>>>>>>> 6e890378b627dba70fe3b7de0a291f1fc6afedf3
         for i in s:
-            stringAns += s[index-1]
-            index = index - 1
-        #slicedString = s[::-1]
-        return stringAns
-    
+            reverseString += s[index-1]
+            index = index -1
+        return reverseString
+        
 s = ["h", "e", "l", "l", "o"]
 obj = Solution()
 print(obj.reverseString(s))
