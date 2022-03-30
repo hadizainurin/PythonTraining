@@ -4,7 +4,7 @@
 class Solution(object):
     def reverseString(self, s): #Do not use slicing
         index = len(s)
-        stringAns = []
+        stringAns = ""
         for i in s:
             stringAns += s[index-1]
             index = index - 1

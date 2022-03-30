@@ -4,7 +4,8 @@
 #         for i in range(index):
 #             for j in range (i+1, index):
 #                 if nums[i] + nums[j] == target:
-#                     return i,j #LeetCode answer, to see its print()
+#                     return i,j 
+# #LeetCode answer, to see its print()
 
 #BinarySearch
 
@@ -13,12 +14,15 @@
 class Solution(object):
     def twoSum(self, nums, target):
         hashTable = dict()
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            if complement in hashTable:
-                return (hashTable[complement],i)
-            else:
-                hashTable[nums[i]] = i #Still some bug here, need to diagnose further
+        try:
+            for i in range(len(nums)):
+                complement = target - nums[i]
+                if complement in hashTable:
+                    return (hashTable[complement],i)
+                else:
+                    hashTable[nums[i]] = i #Still some bug here, need to diagnose further
+        except:
+            print("Nothing is print")
 
 # input = [2,7,11,15]
 # output = 9
@@ -27,7 +31,7 @@ class Solution(object):
 # print(obj.twoSum(input,output))
 
 input = [2,7,11,15]
-output = 13
+output = 22
 obj = Solution()
 print(obj.twoSum(input,output))
 
