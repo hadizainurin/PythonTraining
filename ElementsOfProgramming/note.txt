@@ -1,0 +1,1 @@
+Type = A classification of data that spells out possible values for that type and the operation that can be performed on it.
