@@ -18,6 +18,9 @@ def even_odd(arr):
     next_even, next_odd = 0, len(arr) - 1
 
     while next_even < next_odd:
+        # Debugging
+        #print("next_even is ", next_even)
+        #print("next_Odd is ", next_odd)
         if arr[next_even] % 2 == 0:
             next_even += 1
         else:

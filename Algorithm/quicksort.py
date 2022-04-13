@@ -1,5 +1,5 @@
 # QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot.
-# There are manyh different version of quickSort that pick pivot in a different way
+# There are many different version of quickSort that pick pivot in a different way
 
 # 1. Always pick first element as pivot
 # 2. Always pick last element as pivot

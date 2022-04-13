@@ -65,7 +65,7 @@ Everything in Phyton is an object, you can see this by using 'print(type())' com
 However, Phyton is not limited to Object-Oriented paradigm (OOP) as its can also applied **functional programming** and **procedural programming** <br>
 patterns with things like anonymous functions using lambda
 
-## Third-party Library
+## Third-party Library/Application
 
 1. PyQt
 2. Django
@@ -73,6 +73,9 @@ patterns with things like anonymous functions using lambda
 4. Pandas
 5. Tensorflow
 6. OpenCV
+7. Pyinstaller
+8. auto-py-to-exe
+9. Kivy
 
 ## Reference
 
@@ -82,23 +85,8 @@ patterns with things like anonymous functions using lambda
 
 1. 'git add .' (Add all files but you can also add specify file)
 2. 'git status' (optional)
-3. 'git commit -m 'Comment changes"
+3. 'git commit -m "Comment changes"
 4. git remote -v (optional) 
 5. git push -u origin master (origin is your remote link and branch is normally at master) (optionally you can create a new branch using 'git checkout -b new_branch')
 
 NOTED: If you trying to snych directory, used git pull -u origin master
-
-### Detail Explanation
-
-1. Commit
-
-Committing is the process which records changes in the repository.
-
-
-Optional Command:
-'git status' 
-'touch documentation_file'
-
-2. Push
-
-3. Pull (Optional)
